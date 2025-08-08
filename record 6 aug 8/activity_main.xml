@@ -9,6 +9,16 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+<TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration Form"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+        
         <!-- Name -->
         <EditText
             android:id="@+id/etName"
